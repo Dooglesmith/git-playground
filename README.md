@@ -45,7 +45,8 @@ In detail:
 ## Setting Shortcuts (Aliases)
 
 Setting aliases for common commands.
-    Set [alias]
+Type it on your .gitconfig file
+    [alias]
         co = checkout
         ci = commit
         st = status
