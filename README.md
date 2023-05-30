@@ -41,5 +41,3 @@ In detail:
 - `%an` is the author name
 - `--graph` informs git to display the commit tree in an ASCII graph layout
 - `--date=short` keeps the date format nice and short
-
-## Setting Shortcuts
