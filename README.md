@@ -45,7 +45,10 @@ In detail:
 ## Setting Shortcuts (Aliases)
 
 Setting aliases for common commands.
+
 Type it on your .gitconfig file
+
+```
     [alias]
         co = checkout
         ci = commit
@@ -54,3 +57,5 @@ Type it on your .gitconfig file
         hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
         type = cat-file -t
         dump = cat-file -p
+
+```
