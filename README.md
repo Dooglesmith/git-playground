@@ -41,3 +41,15 @@ In detail:
 - `%an` is the author name
 - `--graph` informs git to display the commit tree in an ASCII graph layout
 - `--date=short` keeps the date format nice and short
+
+## Setting Shortcuts (Aliases)
+
+Setting aliases for common commands.
+    Set [alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
